@@ -61,13 +61,13 @@ class D : public C{
 		}
 		void getter(){
 			cout<<"id = "<<id<<endl
-			    <<"name = "<<name<<endl
-			    <<"role = "<<role<<endl
-			    <<"salary ="<<salary<<endl
-			    <<"experience ="<<experience<<endl
-			    <<"company name = "<<comp_name<<endl
-			    <<"email = "<<email<<endl
-			    <<"contact = "<<contact<<endl;
+			cout<<"name = "<<name<<endl
+			cout<<"role = "<<role<<endl
+			cout<<"salary ="<<salary<<endl
+			cout<<"experience ="<<experience<<endl
+			cout<<"company name = "<<comp_name<<endl
+			cout<<"email = "<<email<<endl
+			cout<<"contact = "<<contact<<endl;
 		}
 };
 int main()
